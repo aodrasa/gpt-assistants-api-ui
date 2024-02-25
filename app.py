@@ -225,14 +225,7 @@ def main():
             type=[
                 "txt",
                 "pdf",
-                "png",
-                "jpg",
-                "jpeg",
-                "csv",
-                "json",
-                "geojson",
-                "xlsx",
-                "xls",
+                "docx",
             ],
             disabled=st.session_state.in_progress,
         )
