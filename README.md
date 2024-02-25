@@ -3,6 +3,7 @@
 * 💬 OpenAI Assistants API chat UI
 * 🛠️ It works easily by setting the ASSISTANT ID
 * 📁 Supports file upload and file download
+* 🪟 Support to Azure OpenAI
 
 <img width="1459" alt="スクリーンショット 2023-11-20 2 23 51" src="https://github.com/ryo-ma/gpt-assistants-api-ui/assets/6661165/5c288d51-196a-4919-bc4d-dc508146f58a">
 
@@ -31,6 +32,7 @@
     ASSISTANT_TITLE="Assistants API UI"
     ENABLED_FILE_UPLOAD_MESSAGE="Upload a file" # Leave empty to disable
     ```
+    If you use azure instead, set `AZURE_OPENAI_ENDPOINT` and `AZURE_OPENAI_KEY`
 
 6. 🏃‍️ Run the app
 
@@ -60,6 +62,7 @@
     ASSISTANT_TITLE="Assistants API UI"
     ENABLED_FILE_UPLOAD_MESSAGE="Upload a file" # Leave empty to disable
     ```
+    If you use azure instead, set `AZURE_OPENAI_ENDPOINT` and `AZURE_OPENAI_KEY`
     
 6. 💽 Build image
 
